@@ -23,13 +23,16 @@ export default defineConfig(({ mode }) => {
                 registerType: 'autoUpdate',
                 injectRegister: 'auto',
                 outDir: 'dist', 
+                // 👇 PERBAIKAN: Memastikan nama file manifest yang dibuat sesuai dengan link di index.html
+                manifestFilename: 'manifest.json', 
+                // 👆 PERBAIKAN: Sekarang plugin akan membuat file manifest.json
                 manifest: {
                     name: 'Mata Bionic AI',
                     short_name: 'Bionic Eye',
                     description: 'Aplikasi pendamping untuk tunanetra yang mendeskripsikan gambar secara real-time.',
                     theme_color: '#000000',
                     background_color: '#000000',
-                    display: 'standalone',
+                    display: 'standalone', // Dipastikan menggunakan standalone
                     scope: '/',
                     start_url: '/',
                     icons: [
