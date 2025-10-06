@@ -29,7 +29,7 @@ export default defineConfig(({ mode }) => {
                     description: 'Aplikasi pendamping untuk tunanetra yang mendeskripsikan gambar secara real-time.',
                     theme_color: '#000000',
                     background_color: '#000000',
-                    display: 'fullscreen',
+                    display: 'standalone',
                     scope: '/',
                     start_url: '/',
                     icons: [
