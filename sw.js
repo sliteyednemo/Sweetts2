@@ -1,4 +1,4 @@
-const CACHE_NAME = 'visual-assistant-cache-v1';
+const CACHE_NAME = 'sweetts';
 const urlsToCache = [
   '/',
   '/index.html',
