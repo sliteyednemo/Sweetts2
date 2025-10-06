@@ -2,6 +2,9 @@ import React, { useState, useRef, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
 import { GoogleGenAI } from "@google/genai";
 
+// PWA Registration Import
+import 'virtual:pwa-register'; // VitePWA automatically generates this registration logic
+
 const App = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [description, setDescription] = useState('');
