@@ -123,7 +123,7 @@ const App = () => {
                     };
                     
                     const textPart = {
-                         text: "Jelaskan gambar ini dalam satu atau dua kalimat singkat untuk orang tunanetra dalam Bahasa Indonesia. Prioritaskan penyebutan jumlah uang atau rintangan."
+                         text: "Saya seorang tunanetra, ini penglihatan terkini saya yang diambil oleh kamera. Jelaskan penglihatan saya, prioritaskan penyebutan jumlah uang atau rintangan jika ada. buat penjelasan yang singkat 2 atau 3 kalimat."
                     };
 
                     const response = await ai.models.generateContent({
