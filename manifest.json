@@ -3,13 +3,13 @@
   "name": "Seeing With Ears Ended The Terrible Solitary",
   "icons": [
     {
-      "src": "pwa-icon-v2-192x192.png",
+      "src": "/pwa-icon-v2-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "any"
     },
     {
-      "src": "pwa-icon-v2-512x512.png",
+      "src": "/pwa-icon-v2-512x512.png",
       "type": "image/png",
       "sizes": "512x512",
       "purpose": "maskable"
